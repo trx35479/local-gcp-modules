@@ -1,0 +1,17 @@
+.DS_Store
+
+**.log
+**.tfplan
+**.tfstate
+**.tfstate.*.backup
+**.tfstate.backup
+**/.terraform/
+**/.terraform.tfstate.lock.info
+**/terraform.tfstate.d/
+**/mafronet.*
+
+.env
+*.zip
+*.tar.gz
+
+.idea
