@@ -1,5 +1,5 @@
 module "glb" {
-  source = "modules\/resource-tcp-proxy-lb"
+  source = "modules/resource-tcp-proxy-lb"
 
   host_project_id = "project1-173203"
   named_port = "${map(google_compute_instance_group.webservers.named_port, 0)}"
